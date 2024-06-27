@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<!--Язык страницы-->
+<html lang="ru">
+<!--Информация о странице-->
+<head>
+    <!--как кодировка символов -->
+    <meta charset="utf-8" />
+    <!--настройка viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--заголовок страницы-->
+    <title>История программирования</title>
+    <!--ссылка на файл стилей-->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        @* <h1 class="logo"></h1>  *@
+        <!--nav нужен чтобы упорядочить элементы-->
+        
+    </header>
+    <main>
+        <!--Эта штука очень важна-->
+        @RenderBody()
+    </main>
+    <footer>Все права защищены</footer>
+</body>
+</html>
